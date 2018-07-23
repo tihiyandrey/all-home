@@ -1,0 +1,155 @@
+@media all and (max-width: 1200px) {
+	.phone-block img {
+		margin: 0;
+	}
+}
+
+@media all and (max-width: 992px) {
+	.header-block-top {
+		text-align: center;
+	}
+	.navigation-block {
+		margin: 20px 0;
+	}
+	.phone-block {
+		text-align: center;
+	}
+	.header-icons--block span {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.header-icons--block {
+		text-align: center;		
+	}
+	.offer-block--icon {
+		display: block;
+		width: 100%;
+	}
+	.offer-block--title span:before, .offer-block--title span:after {
+		content: none;
+	}
+	#owl-carousel-offer .owl-nav .owl-prev, #owl-carousel-offer .owl-nav .owl-next {
+		height: 90%;
+	}
+	.price-list--tabs ul li {
+		width: 32%;
+	}
+	.price-list--content-band_list {
+		width: 100%;
+	}
+	.price-list--content-item {
+		width: 32%;
+	}
+	.calculator-content--step_two-content {
+		text-align: left;
+	}
+	.call-special--form {
+		margin-top: 20px;
+	}
+	.header-text--image {
+		margin-top: 20px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.header-icons--block {
+		margin: 20px 0;
+	}
+	#owl-carousel-offer {
+		display: none;
+	}
+	.arrow-block-l, .arrow-block-r {
+		display: none;
+	}
+	.call-prof--form input[type="text"], .call-prof--form input[type="tel"] {
+		width: 30%;
+	}
+	.presentation {
+		text-align: center;
+	}
+	.review-add {
+		position: static;
+		text-align: center;
+	}
+	.call-special--offer-item {
+		width: 100%;
+		margin: 10px 0;
+	}
+	.call-special--offer-item:first-child {
+		margin-bottom: 10px;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer img {
+		margin-bottom: 20px;
+	}
+	.calculator-list li {
+		margin: 10px 0;
+	}
+	.adress-content-box {
+		position: static;
+		margin: auto;
+	}
+}
+
+@media all and (max-width: 576px) {
+	.offer--title {
+		text-align: center;
+	}
+	.call-prof-block h2 {
+		text-align: center;
+	}
+	.price-list--title {
+		text-align: center;
+	}
+	.price-list--tabs ul li {
+		width: 100%;
+	}
+	.step_two-content--stvorki-val {
+		margin: 10px 0;
+	}
+	.step_two-content-height {
+		display: none;
+	}
+	.step_three-content--img img {
+		width: 100%;
+	}
+	.step_two-content-img img {
+		width: 100%;
+	}
+	.step_four-content--img img {
+		width: 100%;
+	}
+	.price-list--content-item {
+		width: 100%;
+	}
+	.call-prof--form input[type="submit"] {
+		width: 100%;
+	}
+	.header-text--image img {
+		width: 100%;
+	}
+	.call-prof--form input[type="text"], .call-prof--form input[type="tel"] {
+		width: 100%;
+		margin: 10px 0;
+	    display: block;
+	}
+	#owl-carousel-video {
+		display: none;
+	}
+	#owl-carousel-review {
+		display: none;
+	}
+	.navigation-block ul {
+		display: block;
+	}
+	.navigation-block ul li {
+		margin: 10px 0;
+	}
+	.step_four-content--list {
+		margin-left: 0;
+	}
+}
